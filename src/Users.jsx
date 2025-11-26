@@ -62,7 +62,7 @@ function Users() {
 
       <form onSubmit={handleSubmit} style={{ marginBottom: "20px" }}>
         <input type="text" name="name" placeholder="Name" />
-        <input type="number" name="age" placeholder="Age" />
+        <input type="number" name="age" placeholder="Age" min="0" max="120" />
         <button type="submit">Add</button>
       </form>
 
