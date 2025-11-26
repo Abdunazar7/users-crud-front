@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: linear-gradient(135deg, #0c0f17, #1b1f2a);
+  color: #f1f1f1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Inputs */
+input {
+  padding: 10px 14px;
+  margin-right: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #444;
+  background: #1e222d;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus {
+  border-color: #6ea8fe;
+  background: #252b38;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: #3a57e8;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #4f6bff;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* User Cards */
+.user-card {
+  background: #1a1f2b;
+  padding: 14px 18px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: 1px solid #2c3242;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  background: #222836;
+  transform: translateX(5px);
+  border-color: #3b4257;
+}
